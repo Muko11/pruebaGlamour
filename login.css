@@ -1,0 +1,40 @@
+body {
+    padding-top: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #5a5a5a;
+    background: linear-gradient(to right, #FCA5F1 -50%, #B5FFFF 150%);
+}
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+#boton-iniciar-sesion-login {
+    background-color: #008CBA;
+    color: white;
+    border: 2px solid #008CBA;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#boton-iniciar-sesion-login:hover {
+    background-color: white;
+    color: black;
+}
+
+.form-login{
+    padding-bottom: 8%;
+}
+
+.form-control {
+    border-radius: 50px;
+}
+

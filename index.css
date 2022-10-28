@@ -1,0 +1,168 @@
+body {
+    padding-top: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #5a5a5a;
+}
+
+#boton-iniciar-sesion-slide {
+    background-color: #008CBA;
+    color: white;
+    border: 2px solid #008CBA;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#boton-iniciar-sesion-slide:hover {
+    background-color: white;
+    color: black;
+}
+
+#boton-crear-cuenta-slide {
+    background-color: #9A2A2A;
+    color: white;
+    border: 2px solid #9A2A2A;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#boton-crear-cuenta-slide:hover {
+    background-color: white;
+    color: black;
+}
+
+#boton-local {
+    background-color: #FFBF00;
+    color: white;
+    border: 2px solid #FFBF00;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#boton-local:hover {
+    background-color: white;
+    color: black;
+}
+
+#boton-ver-mas {
+    background-color: #7F00FF;
+    color: white;
+    border: 2px solid #7F00FF;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#boton-ver-mas:hover {
+    background-color: white;
+    color: black;
+}
+
+#carta-servicios {
+    background: linear-gradient(#7F00FF -100%, white 100%);
+    padding: 2%;
+}
+
+#carta-cita {
+    background: linear-gradient(#E0115F -100%, white 100%);
+    padding: 2%;
+}
+
+#carta-trabajo {
+    background: linear-gradient(#FFBF00 -100%, white 100%);
+    padding: 2%;
+}
+
+#texto-slide-1 {
+    bottom: 24%;
+    padding: 2%;
+    border-radius: 20px;
+    background-color: rgba(14, 12, 12, 0.548);
+}
+
+.texto-slide-2 {
+    color: rgb(255, 255, 255);
+}
+
+.definiciones {
+    background: linear-gradient(#00ABC5 -50%, #FFFF7E 100%);
+}
+
+.carousel {
+    margin-bottom: 4rem;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+.carousel-item {
+    height: 32rem;
+    max-width: 2000px;
+    min-width: 320px;
+    margin: auto;
+}
+
+.carousel-item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+}
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.marketing h2 {
+    font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+.featurette-divider {
+    margin: 5rem 0;
+}
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}

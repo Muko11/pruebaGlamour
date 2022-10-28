@@ -1,0 +1,43 @@
+body {
+    padding-top: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #5a5a5a;
+    background: linear-gradient(to right, #FCA5F1 -50%, #B5FFFF 150%);
+}
+
+#boton-crear-cuenta-form {
+    background-color: #9A2A2A;
+    color: white;
+    border: 2px solid #9A2A2A;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#boton-crear-cuenta-form:hover {
+    background-color: white;
+    color: black;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form-crear-cuenta {
+    padding-bottom: 8%;
+}
+
+.form-crear-cuenta ::placeholder {
+    opacity: 50%;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form-control {
+    border-radius: 50px;
+}

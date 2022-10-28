@@ -1,0 +1,73 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #5a5a5a;
+}
+
+#nav {
+    overflow: hidden;
+}
+
+#nav a {
+    color: #f2f2f2;
+}
+
+#nav a:hover {
+    color: #E0115F;
+}
+
+#nav-buscar {
+    list-style: none;
+    padding: 1%;
+}
+
+#boton-iniciar-sesion {
+    background-color: #008CBA;
+    border-color: #008CBA;
+    border-radius: 50px;
+}
+
+#boton-iniciar-sesion:hover {
+    background-color: white;
+    color: black;
+}
+
+#boton-crear-cuenta {
+    background-color: #9A2A2A;
+    border-color: #9A2A2A;
+    color: white;
+    border-radius: 50px;
+}
+
+#boton-crear-cuenta:hover {
+    background-color: white;
+    color: black;
+}
+
+#boton-reservar {
+    background-color: #E0115F;
+    color: white;
+    border: 2px solid #E0115F;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#boton-reservar:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn {
+    background-color: #009E60;
+    color: white;
+    border-color: #009E60;
+    border-radius: 50px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
